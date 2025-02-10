@@ -5,6 +5,7 @@ import { Hero } from "@/components/sections/hero"
 import { ParallaxDivider } from "@/components/sections/parallax-divider"
 import { Portfolio } from "@/components/sections/portfolio"
 import { Services } from "@/components/sections/services"
+import { Video } from "@/components/sections/video"
 import { Navbar } from "@/components/ui/navbar"
 import { Analytics } from "@vercel/analytics/react"
 
@@ -17,15 +18,16 @@ export default function Home() {
         <Hero />
         <About />
         <ParallaxDivider
-          image="/images/portfolio-2.JPG"
+          image="/images/parallax/parallax1.JPG"
           height="h-[40vh]"
           speed={-30}
           overlayOpacity={0.5}
         />
         <Services />
         <Portfolio />
+        <Video />
         <ParallaxDivider
-          image="/images/portfolio-1.JPG"
+          image="/images/parallax/parallax2.JPG"
           height="h-[40vh]"
           speed={-30}
           overlayOpacity={0.5}

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export function Video() {
   return (
-    <section className="py-20 bg-muted">
+    <section id="video" className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

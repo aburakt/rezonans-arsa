@@ -23,7 +23,7 @@ const services = [
 
 export function Services() {
   return (
-    <section className="py-20 bg-muted">
+    <section className="py-20 bg-muted" id="services">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

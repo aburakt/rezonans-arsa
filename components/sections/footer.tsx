@@ -1,36 +1,20 @@
-"use client"
-
-import { ParallaxBanner } from "react-scroll-parallax"
-
 export function Footer() {
   return (
-    <footer className="h-[100px] relative">
-      <ParallaxBanner
-        layers={[
-          {
-            image: "/images/footer-bg.jpg",
-            speed: -15,
-          }
-        ]}
-        className="h-full"
-      >
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center text-white">
-            <p className="text-sm opacity-70">
-              Coded by{" "}
-              <a
-                href="https://aburakt.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-100 transition-opacity"
-              >
-                @aburakt
-              </a>
-            </p>
-          </div>
-        </div>
-      </ParallaxBanner>
+    <footer className=" bg-gray-200 py-8 border-t">
+      <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
+        <p>© {new Date().getFullYear()} Rezonans Arsa. Tüm hakları saklıdır.</p>
+        <p className="mt-2">
+          Developed by{" "}
+          <a
+            href="https://aburakt.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-primary transition-colors"
+          >
+            @aburakt
+          </a>
+        </p>
+      </div>
     </footer>
   )
 }
