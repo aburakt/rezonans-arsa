@@ -8,7 +8,7 @@ const links = [
   { href: "#about", label: "Hakkımızda" },
   { href: "#services", label: "Hizmetler" },
   { href: "#portfolio", label: "Portföy" },
-  { href: "#video", label: "." },
+  { href: "#video", label: "Video" },
   { href: "#contact", label: "İletişim" },
 ]
 

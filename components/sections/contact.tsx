@@ -75,8 +75,9 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold mb-1">Adres</h3>
                     <p className="text-muted-foreground">
-                      İstanbul, Türkiye<br />
-                      Tam adres bilgisi
+                      Yenişehir Mah. Millet Cad.<br />
+                      Bina No:34D D blok iç kapı No:188<br />
+                      Pendik İstanbul, Türkiye
                     </p>
                   </div>
                 </div>
@@ -84,7 +85,7 @@ export function Contact() {
                   <Phone className="w-6 h-6 text-primary shrink-0" />
                   <div>
                     <h3 className="font-semibold mb-1">Telefon</h3>
-                    <p className="text-muted-foreground">+90 XXX XXX XX XX</p>
+                    <p className="text-muted-foreground">+90 543 719 51 71</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -99,7 +100,7 @@ export function Contact() {
               {/* Map */}
               <div className="aspect-[16/9] w-full mt-8">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=YOUR_MAPS_EMBED_URL"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.4666211254134!2d29.3063247529891!3d40.927439450794566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cada10fa90bc6f%3A0x7013eb09722865bf!2sYeni%C5%9Fehir%2C%20Millet%20Cd.%20No%3A34%2C%2034912%20Pendik%2F%C4%B0stanbul!5e0!3m2!1sen!2str!4v1739215041110!5m2!1sen!2str"
                   width="100%"
                   height="100%"
                   style={{ border: 0, borderRadius: '0.5rem' }}
