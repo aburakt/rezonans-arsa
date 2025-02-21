@@ -7,6 +7,7 @@ import { Portfolio } from "@/components/sections/portfolio"
 import { Services } from "@/components/sections/services"
 import { Video } from "@/components/sections/video"
 import { Navbar } from "@/components/ui/navbar"
+import { WhatsAppButton } from "@/components/ui/whatsapp-button"
 import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
@@ -24,7 +25,19 @@ export default function Home() {
           overlayOpacity={0.5}
         />
         <Services />
+        <ParallaxDivider
+          image="/images/parallax/parallax3.png"
+          height="h-[20vh]"
+          speed={-30}
+          overlayOpacity={0.5}
+        />
         <Portfolio />
+        <ParallaxDivider
+          image="/images/parallax/parallax3.png"
+          height="h-[20vh]"
+          speed={-30}
+          overlayOpacity={0.5}
+        />
         <Video />
         <ParallaxDivider
           image="/images/parallax/parallax2.JPG"
@@ -35,6 +48,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   )
 }
