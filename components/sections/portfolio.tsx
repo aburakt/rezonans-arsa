@@ -2,30 +2,30 @@
 
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { motion } from "framer-motion"
+import { ChevronRight } from "lucide-react"
 import Image from "next/image"
 import { useState } from "react"
-import { ChevronRight } from "lucide-react"
 
 const images = [
-  { 
-    src: "/images/lands/land1.JPG", 
+  {
+    src: "/images/lands/land1.jpg",
     title: "Arsa 1",
     description: "Premium konumda yatırımlık arsa",
-    location: "Ankara, Çankaya",
+    location: "Gelibolu, Ocaklı",
     area: "500m²"
   },
-  { 
-    src: "/images/lands/land2.JPG", 
+  {
+    src: "/images/lands/land2.jpg",
     title: "Arsa 2",
     description: "Gelişmekte olan bölgede cazip fırsat",
-    location: "Ankara, Etimesgut",
+    location: "Gelibolu, Ocaklı",
     area: "750m²"
   },
-  { 
-    src: "/images/lands/land3.JPG", 
+  {
+    src: "/images/lands/land3.jpg",
     title: "Arsa 3",
     description: "İmar durumu hazır, yatırıma uygun",
-    location: "Ankara, Yenimahalle",
+    location: "Gelibolu, Ocaklı",
     area: "1000m²"
   },
 ]
@@ -36,7 +36,7 @@ export function Portfolio() {
   return (
     <section id="portfolio" className="relative py-24 bg-gradient-to-b from-gray-50 to-gray-100">
       <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-5" />
-      
+
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -69,7 +69,7 @@ export function Portfolio() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               </div>
-              
+
               <div className="p-6 space-y-3">
                 <h3 className="text-xl font-semibold">{image.title}</h3>
                 <p className="text-gray-600">{image.description}</p>
