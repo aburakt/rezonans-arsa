@@ -12,21 +12,21 @@ const images = [
     title: "Arsa 1",
     description: "Premium konumda yatırımlık arsa",
     location: "Gelibolu, Ocaklı",
-    area: "500"
+    area: ""
   },
   {
     src: "/images/lands/land02.JPG",
     title: "Arsa 2",
-    description: "Gelişmekte olan bölgede cazip fırsat",
+    description: "Premium konumda yatırımlık arsa",
     location: "Gelibolu, Ocaklı",
-    area: "750"
+    area: ""
   },
   {
     src: "/images/lands/land03.JPG",
     title: "Arsa 3",
-    description: "İmar durumu hazır, yatırıma uygun",
+    description: "Premium konumda yatırımlık arsa",
     location: "Gelibolu, Ocaklı",
-    area: "1000"
+    area: ""
   },
 ]
 
