@@ -8,21 +8,21 @@ import { useState } from "react"
 
 const images = [
   {
-    src: "/images/lands/land01.jpg",
+    src: "/images/lands/land01.JPG",
     title: "Arsa 1",
     description: "Premium konumda yatırımlık arsa",
     location: "Gelibolu, Ocaklı",
     area: "500"
   },
   {
-    src: "/images/lands/land02.jpg",
+    src: "/images/lands/land02.JPG",
     title: "Arsa 2",
     description: "Gelişmekte olan bölgede cazip fırsat",
     location: "Gelibolu, Ocaklı",
     area: "750"
   },
   {
-    src: "/images/lands/land03.jpg",
+    src: "/images/lands/land03.JPG",
     title: "Arsa 3",
     description: "İmar durumu hazır, yatırıma uygun",
     location: "Gelibolu, Ocaklı",
