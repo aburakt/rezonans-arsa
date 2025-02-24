@@ -28,6 +28,41 @@ const images = [
     location: "Gelibolu, Ocaklı",
     area: ""
   },
+  {
+    src: "/images/lands/land04.JPG",
+    title: "Arsa 4",
+    description: "Premium konumda yatırımlık arsa",
+    location: "Gelibolu, Ocaklı",
+    area: ""
+  },
+  {
+    src: "/images/lands/land05.JPG",
+    title: "Arsa 5",
+    description: "Premium konumda yatırımlık arsa",
+    location: "Gelibolu, Ocaklı",
+    area: ""
+  },
+  {
+    src: "/images/lands/land06.JPG",
+    title: "Arsa 6",
+    description: "Premium konumda yatırımlık arsa",
+    location: "Gelibolu, Ocaklı",
+    area: ""
+  },
+  {
+    src: "/images/lands/land07.JPG",
+    title: "Arsa 7",
+    description: "Premium konumda yatırımlık arsa",
+    location: "Gelibolu, Ocaklı",
+    area: ""
+  },
+  {
+    src: "/images/lands/land08.JPG",
+    title: "Arsa 8",
+    description: "Premium konumda yatırımlık arsa",
+    location: "Gelibolu, Ocaklı",
+    area: ""
+  },
 ]
 
 export function Portfolio() {
@@ -51,7 +86,7 @@ export function Portfolio() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {images.map((image, index) => (
             <motion.div
               key={index}
