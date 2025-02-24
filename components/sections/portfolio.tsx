@@ -1,69 +1,11 @@
 "use client"
 
+import { landInfo } from "@/api/lands"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { motion } from "framer-motion"
 import { ChevronRight } from "lucide-react"
 import Image from "next/image"
 import { useState } from "react"
-
-const images = [
-  {
-    src: "/images/lands/land01.JPG",
-    title: "Arsa 1",
-    description: "Premium konumda yatırımlık arsa",
-    location: "Gelibolu, Ocaklı",
-    area: ""
-  },
-  {
-    src: "/images/lands/land02.JPG",
-    title: "Arsa 2",
-    description: "Premium konumda yatırımlık arsa",
-    location: "Gelibolu, Ocaklı",
-    area: ""
-  },
-  {
-    src: "/images/lands/land03.JPG",
-    title: "Arsa 3",
-    description: "Premium konumda yatırımlık arsa",
-    location: "Gelibolu, Ocaklı",
-    area: ""
-  },
-  {
-    src: "/images/lands/land04.JPG",
-    title: "Arsa 4",
-    description: "Premium konumda yatırımlık arsa",
-    location: "Gelibolu, Ocaklı",
-    area: ""
-  },
-  {
-    src: "/images/lands/land05.JPG",
-    title: "Arsa 5",
-    description: "Premium konumda yatırımlık arsa",
-    location: "Gelibolu, Ocaklı",
-    area: ""
-  },
-  {
-    src: "/images/lands/land06.JPG",
-    title: "Arsa 6",
-    description: "Premium konumda yatırımlık arsa",
-    location: "Gelibolu, Ocaklı",
-    area: ""
-  },
-  {
-    src: "/images/lands/land07.JPG",
-    title: "Arsa 7",
-    description: "Premium konumda yatırımlık arsa",
-    location: "Gelibolu, Ocaklı",
-    area: ""
-  },
-  {
-    src: "/images/lands/land08.JPG",
-    title: "Arsa 8",
-    description: "Premium konumda yatırımlık arsa",
-    location: "Gelibolu, Ocaklı",
-    area: ""
-  },
-]
 
 export function Portfolio() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
@@ -87,7 +29,7 @@ export function Portfolio() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {images.map((image, index) => (
+          {landInfo.map((image, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
